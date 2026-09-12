@@ -172,7 +172,7 @@ User questions their life choices
 
 # Screenshots
 
-![WHYculator Interface](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
+![Screenshot of iPad Pro](screenshots/ipad_pro.png)
 
 *The WHYculator interface displaying the calculator, result, statistics, calculation history, and excuse section.*
 
