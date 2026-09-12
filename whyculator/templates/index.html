@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WHYculator – Classic Calculator</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <h1>WHYculator</h1>
+        <p class="tagline">Uselessness with a classic feel</p>
+    </header>
+    <main class="calc-container">
+        <div class="display">
+            <div id="input-summary" class="small"></div>
+            <input type="text" id="calc-display" readonly placeholder="0" />
+        </div>
+        <div class="buttons-grid">
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn op" data-op="/">÷</button>
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn op" data-op="*">×</button>
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn op" data-op="-">−</button>
+            <button class="btn" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn eq" id="equals">=</button>
+            <button class="btn op" data-op="+">+</button>
+            <button class="btn" id="clear">C</button>
+            <label class="toggle"><input type="checkbox" id="chaos-mode" /> Chaos</label>
+            <label class="toggle"><input type="checkbox" id="sound-toggle" checked /> Sound</label>
+        </div>
+        <section id="result-section" class="hidden">
+            <h2>Result</h2>
+            <p id="result-text"></p>
+            <p id="confidence-text" class="small"></p>
+            <p id="explanation-text" class="small"></p>
+            <p id="chaos-text" class="small"></p>
+        </section>
+        <section class="stats-card">
+            <h2>Stats</h2>
+            <ul>
+                <li>Total: <span id="stat-total">0</span></li>
+                <li>Ignored: <span id="stat-ignored">0</span></li>
+                <li>Useless%: <span id="stat-useless">0</span></li>
+            </ul>
+        </section>
+        <section class="history-card">
+            <h2>History</h2>
+            <ul id="history-list"></ul>
+        </section>
+        <section class="excuse-card">
+            <button id="excuse-button" class="btn-secondary">Excuse</button>
+            <p id="excuse-text" class="small"></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2026 Useless Hackathon</p>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
