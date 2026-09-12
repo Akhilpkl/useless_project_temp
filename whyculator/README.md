@@ -1,5 +1,7 @@
 # WHYculator – The Useless Calculator
 
+![Screenshot of iPad Pro](screenshots/ipad_pro.png)
+
 ![Whyculator Banner](https://raw.githubusercontent.com/example/whyculator/main/assets/banner.png)
 
 ## 🎯 Goal
