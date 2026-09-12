@@ -174,7 +174,7 @@ User questions their life choices
 
 ![Screenshot of iPad Pro](screenshots/ipad_pro.png)
 
-*The WHYculator interface displaying the calculator, result, statistics, calculation history, and excuse section.*
+
 
 ## Team Contributions
 
