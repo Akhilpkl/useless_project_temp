@@ -170,11 +170,6 @@ Statistics & history updated
 User questions their life choices
 ```
 
-# Screenshots
-
-![Screenshot of iPad Pro](screenshots/ipad_pro.png)
-
-
 
 ## Team Contributions
 
