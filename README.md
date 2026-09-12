@@ -1,103 +1,190 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
+<img width="1280" height="640" alt="WHYculator Interface" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-
-# [Project Name] 🎯
-
+# WHYculator 🎯
 
 ## Basic Details
-### Team Name: [Name]
 
+### Team Name: SAY MY NAME
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+
+- Team Lead: ASWIN SOMAN - SNGCE
+- Member 2: AKHIL SHAJI - SNGCE
 
 ### Project Description
-[2-3 lines about what your project does]
+
+WHYculator is a deliberately useless calculator that refuses to perform the operation requested by the user. Enter two numbers, choose an operation, and WHYculator randomly decides what mathematical operation it actually wants to perform.
+
+It combines random mathematics, fake AI reasoning, confidence scores, statistics, and a Chaos Mode to create a calculator that is technically functional but completely unreliable.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+People have been calculating things correctly for far too long.
+
+Traditional calculators are predictable, boring, and actually useful. There was clearly a massive problem in the calculator industry:
+
+What if a calculator simply ignored you?
+
+WHYculator solves this completely unnecessary problem.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+WHYculator gives users the freedom to have absolutely no control over their calculations.
+
+For example:
+
+**You:**
+
+```text
+10 + 5
+```
+
+**WHYculator:**
+
+```text
+Hmm...
+
+Selected Operation: ×
+
+10 × 5 = 50
+
+AI Confidence: 34.72%
+
+Reason:
+"The algorithm had a feeling."
+```
+
+The calculator randomly chooses whether to follow the user's requested operation or completely ignore it.
+
+It also provides:
+
+- Random mathematical operations
+- Fake AI reasoning
+- Fake confidence scores
+- Uselessness score
+- Calculation history
+- Chaos Mode
+- Random excuses
+- Statistics
+- Dramatic calculation animations
+- Completely unnecessary Easter eggs
 
 ## Technical Details
+
 ### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+**For Software:**
 
-### Implementation
-For Software:
-# Installation
-[commands]
+- **Languages:** Python, JavaScript, HTML, CSS
+- **Framework:** Flask
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Backend:** Python Flask
+- **Template Engine:** Jinja2
+- **Communication:** REST-style Flask API + Fetch API
+- **Tools:** Git, GitHub, VS Code
+- **Deployment:** Local Flask Server
 
-# Run
-[commands]
+**For Hardware:**
 
-### Project Documentation
-For Software:
+No hardware components required.
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+## Implementation
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+**For Software:**
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+### Installation
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+Clone the repository:
 
-For Hardware:
+```bash
+git clone [YOUR_GITHUB_REPOSITORY_URL]
+cd WHYculator
+```
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+Create a virtual environment:
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+```bash
+python -m venv venv
+```
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+Activate the virtual environment.
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+**Windows:**
 
-![Final](Add photo of final product here)
-*Explain the final build*
+```bash
+venv\Scripts\activate
+```
 
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+**Linux/macOS:**
 
-# Additional Demos
-[Add any extra demo materials/links]
+```bash
+source venv/bin/activate
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run
+
+```bash
+python app.py
+```
+
+Open the application in your browser:
+
+```text
+http://127.0.0.1:5000
+```
+
+## Project Documentation
+
+**For Software:**
+
+### How WHYculator Works
+
+```text
+User enters two numbers
+          ↓
+User selects an operation
+          ↓
+User clicks CALCULATE
+          ↓
+Request sent to Flask backend
+          ↓
+Flask randomly chooses an operation
+          ↓
+Mathematical calculation performed
+          ↓
+Fake AI confidence generated
+          ↓
+Funny explanation generated
+          ↓
+Result returned to frontend
+          ↓
+Statistics & history updated
+          ↓
+User questions their life choices
+```
+
+# Screenshots
+
+![WHYculator Interface](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
+
+*The WHYculator interface displaying the calculator, result, statistics, calculation history, and excuse section.*
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+
+- **Akhil:** Flask backend, calculation engine, random operation logic, API integration, and overall project development.
+- **Aswin Soman:** Frontend UI/UX, animations, responsive design, testing, documentation, and presentation.
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
+
+Made with ❤️ at TinkerHub Useless Projects
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+
 ![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
-
-
-
